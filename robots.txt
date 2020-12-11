@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: https://progi1984.github.io/prestashop-tests/sitemap.xml
