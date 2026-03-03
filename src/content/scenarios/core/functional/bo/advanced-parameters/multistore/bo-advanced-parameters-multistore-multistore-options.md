@@ -6,10 +6,8 @@ weight: 8
 # BO - Advanced Parameters - Multistore : Multistore options
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1190
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/10_multistore/08_multistoreOptions.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/logs/advanced-parameters/multistore
 
 ## Steps
 | Step Description | Expected result |

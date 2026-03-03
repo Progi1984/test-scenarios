@@ -6,11 +6,9 @@ weight: 2
 # BO - Advanced Parameters - Team - Permissions - Edit (Modules)
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : In progress
 * **Automated on** : 9.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1162
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/06_team/permission/02_editModules.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/team-employees
 
 ## Steps
 | Step Description | Expected result |

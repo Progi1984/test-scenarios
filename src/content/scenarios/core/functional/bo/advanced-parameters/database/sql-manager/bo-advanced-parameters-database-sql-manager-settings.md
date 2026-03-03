@@ -6,7 +6,7 @@ weight: 3
 # BO - Advanced Parameters - Database - SQL Manager - Settings
 ## Details
 * **Component** : Core
-* **Status** : Blocked
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1165
 
 ## Steps
