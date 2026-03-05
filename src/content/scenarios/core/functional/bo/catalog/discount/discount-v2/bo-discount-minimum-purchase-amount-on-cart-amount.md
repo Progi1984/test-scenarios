@@ -5,8 +5,9 @@ weight: 1
 
 # BO - Discount - Minimum purchase amount (On cart amount)
 ## Details
-* **Status** : Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-11278
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/https://github.com/PrestaShop/PrestaShop/pull/40910.ts
 
 ## Steps
 | Step Description | Expected result |

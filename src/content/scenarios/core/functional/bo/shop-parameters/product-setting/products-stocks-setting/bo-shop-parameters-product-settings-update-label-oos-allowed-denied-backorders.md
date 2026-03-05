@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Update label oos allowed/denied backorders"
-weight: 6
+weight: 7
 ---
 
 # BO - Shop Parameters - Product Settings - Update label oos allowed/denied backorders
