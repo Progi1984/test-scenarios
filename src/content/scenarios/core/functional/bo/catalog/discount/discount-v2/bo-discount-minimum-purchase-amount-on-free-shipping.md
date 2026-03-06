@@ -5,7 +5,7 @@ weight: 4
 
 # BO - Discount - Minimum purchase amount (On Free shipping)
 ## Details
-* **Status** : To be automated
+* **Status** : IN REVIEW
 * **Scenario** : https://forge.prestashop.com/browse/TEST-12396
 
 ## Steps
@@ -14,10 +14,10 @@ weight: 4
 | BO > Catalog > Discounts | Discounts page should be displayed<br><br>empty discount list |
 | Click to Create discount | Select discount page displayed |
 | Choose type and click to "Create discount" | Create cart discount displayed |
-| Fill form and save | Discount page displayed<br><br>Error Message: The field names is required at least in your default language. |
-| Fill form and save | Discount page displayed<br><br>Error Message: This value should be greater than 0. |
-| Fill form and save | Discount page displayed<br><br>Error Message: This value should be greater than 0. |
-| Fill form and save | Discount page displayed<br><br>Error Message: Please enter a valid money amount. |
+| Fill form and save | Discount page displayed<br><br><br>Error Message: The form contains errors. Please fix them and save again.<br>The field names is required at least in your default language. |
+| Fill form and save | Discount page displayed<br><br>Error Message: The form contains errors. Please fix them and save again.<br>This value should be greater than 0. |
+| Fill form and save | Discount page displayed<br><br>Error Message: The form contains errors. Please fix them and save again.<br>This value should be greater than 0. |
+| Fill form and save | Discount page displayed<br><br>Error Message: The form contains errors. Please fix them and save again.<br>Please enter a valid money amount. |
 | Fill form and save | Discount page displayed<br><br>Successful Message: Successful update<br>Discount list = 1 |
 | Click on “view my store”> Add a product > enter discount code | Error message: The minimum amount to benefit from this promo code is €50.00. |
 | Click on “Sign in" | Logged with John DOE account |

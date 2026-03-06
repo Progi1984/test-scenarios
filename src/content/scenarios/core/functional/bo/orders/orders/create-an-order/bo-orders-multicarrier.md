@@ -32,7 +32,7 @@ weight: 12
 | Click on the CTA "Create order". | Order is done, and detailed order page is displayed. |
 | Check the 3 tabs. | 3 tabs are : <br> * "Status (1)"<br> * "Documents (1)"<br> * *"Shipments (2)"* |
 | Click on the tab "Shipments". | "Shipments" tab is displayed, with the shipment table. |
-| On the first line (Carrier 1 line), click on the "..." CTA. | 2 options are displayed : <br> * Split<br> * Merge |
+| On the first raw (Shipment 1 line), click on the "..." CTA. | 2 options are displayed : <br> * Split<br> * Merge |
 | Click on the CTA "Split". | "Split shipment" modal is displayed. |
 | Select product 1 in 1 quantity. | Modal is refreshed. |
 | Click on the "Select a carrier" drop down menu. | Choice "Carrier 1" is displayed. |
@@ -41,8 +41,12 @@ weight: 12
 | Click on "Carrier 2". | Carrier 2 is selected and CTA "Split shipment" is enable. |
 | Click on "Split shipment" CTA. | The modal is closed and the page is refreshed. |
 | Click on the tab "Shipment". | A new line is added with "Carrier 2" and shipment number (last one + 1). |
-| On the Shipment number id 6 line, click on the "..." CTA. | Merge CTA is displayed. |
+| Go to FO > Login page > log in | Logged in. |
+| Go to Main menu > Orders > Click on the last order "Details" | Order is displayed. |
+| Check "Shipment tracking details". | 1 raw with carrier 1<br><br>1 raw with carrier 2 |
+| Check product details table. | 1 raw : product 1 in 3 qty with Carrier 1<br><br>2 raw : product 2 in 3 qty with Carrier 1<br><br>3 raw : product 2 in 1 qty with carrier 2<br><br>4 raw : product 3 in 2 qty with carrier 2 |
 | Click on the "Merge" CTA. | "Merge shipment" modal is displayed. |
+| On BO > On the Shipment number id 6 line, click on the "..." CTA. | Merge CTA is displayed. |
 | Select Product 2 and select the second shipment. | "Merge shipment" CTA is enabled. |
 | Click on the "Merge shipment" CTA. | "Merge shipment" modal is closed and the page is refreshed. |
 | Click on the "Shipment" tab. | Shipment tab with the table is displayed and the last shipment number is not displayed anymore. |

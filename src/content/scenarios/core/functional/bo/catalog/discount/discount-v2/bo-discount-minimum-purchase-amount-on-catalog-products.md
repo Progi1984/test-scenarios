@@ -5,7 +5,7 @@ weight: 2
 
 # BO - Discount - Minimum purchase amount (On catalog products)
 ## Details
-* **Status** : Automation in progress
+* **Status** : Sandbox
 * **Scenario** : https://forge.prestashop.com/browse/TEST-12393
 
 ## Steps

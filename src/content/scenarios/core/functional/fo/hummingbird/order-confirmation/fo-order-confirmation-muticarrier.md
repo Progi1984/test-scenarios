@@ -6,7 +6,7 @@ weight: 6
 # FO - Order confirmation - Muticarrier 
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-12595
 
 ## Steps
@@ -22,7 +22,7 @@ weight: 6
 | Check product details table | row 1 : first product<br><br>row 2 : second product<br><br>row 3: third product<br><br>row 4 : virtual product |
 | Go back to BO > Orders > First order in the list | The created order page is opened <br>page title = Orders > Order |
 | Click on the new tab 'Shipments' | The tab is opened<br>2 lines in the table |
-| Click on edit shipment link of the first carrier | A modal is visible |
+| Click on edit shipment link of the first shipment | A modal is visible |
 | Add a tracking number and save | The modale is not visible |
 | Go back to the FO > order history > order details page | page title = Order details |
 | Check the tracking number in the carriers table | Row 1 , column 5 = <br><br>TN12345678 |
