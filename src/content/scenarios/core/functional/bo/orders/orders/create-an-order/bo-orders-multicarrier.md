@@ -25,8 +25,8 @@ weight: 12
 | On the bloc "Cart", in the field "Search for a product", type "Product 3". | In the field "Product", the result for "Product 3" is displayed. |
 | Select 2 for the quantity. | Quantity selected. |
 | Click on the CTA "Add to cart". | "Product 3" in 2 quantity is in the cart. |
-| In the "Shipping" bloc, check the carrier. | 2 choices are displayed : <br> * Carrier 1 <br> * Carrier 2 |
-| Select Carrier 1. | Carrier 1 is displayed. |
+| In the "Shipping" bloc, check the carrier. | 2 choices are displayed : <br> * Carrier for product 1 <br> * Carrier for product 2 and 3 |
+| Select Carrier for product 1. | Carrier for product 1 is displayed. |
 | In the bloc "Summary", choose "Cash on delivery" as payment method. | Method payment is selected. |
 | In the bloc "Summary", choose "Payment accepted" as order status. | Order status is selected. |
 | Click on the CTA "Create order". | Order is done, and detailed order page is displayed. |
@@ -35,21 +35,24 @@ weight: 12
 | On the first raw (Shipment 1 line), click on the "..." CTA. | 2 options are displayed : <br> * Split<br> * Merge |
 | Click on the CTA "Split". | "Split shipment" modal is displayed. |
 | Select product 1 in 1 quantity. | Modal is refreshed. |
-| Click on the "Select a carrier" drop down menu. | Choice "Carrier 1" is displayed. |
+| Click on the "Select a carrier" drop down menu. | Choice "Carrier for product 1" is displayed. |
 | Unselect Product 1 and select Product 2 in 1 quantity. | Modal is refreshed. |
-| Click on the "Select a carrier" drop down menu. | Choices<br> * "Carrier 1"<br> * "Carrier 2"<br><br>are displayed. |
-| Click on "Carrier 2". | Carrier 2 is selected and CTA "Split shipment" is enable. |
+| Click on the "Select a carrier" drop down menu. | Choices<br> * "Carrier for product 1"<br> * "Carrier for products 2 and 3"<br><br>are displayed. |
+| Click on "Carrier for products 2 and 3". | Carrier for product 2 and 3 is selected and CTA "Split shipment" is enable. |
 | Click on "Split shipment" CTA. | The modal is closed and the page is refreshed. |
-| Click on the tab "Shipment". | A new line is added with "Carrier 2" and shipment number (last one + 1). |
+| Click on the tab "Shipment". | A new raw is added with "Carrier 2" and shipment number (last one + 1). |
 | Go to FO > Login page > log in | Logged in. |
 | Go to Main menu > Orders > Click on the last order "Details" | Order is displayed. |
-| Check "Shipment tracking details". | 1 raw with carrier 1<br><br>1 raw with carrier 2 |
-| Check product details table. | 1 raw : product 1 in 3 qty with Carrier 1<br><br>2 raw : product 2 in 3 qty with Carrier 1<br><br>3 raw : product 2 in 1 qty with carrier 2<br><br>4 raw : product 3 in 2 qty with carrier 2 |
+| Check "Shipment tracking details". | 1 raw with carrier for product 1<br><br>1 raw with carrier for products 2 and 3<br><br>1 raw with carrier for products 2 and 3 |
+| Check product details table. | 1 raw : product 1 in 3 qty with Carrier for product 1<br><br>2 raw : product 2 in 3 qty with Carrier for product 1<br><br>3 raw : product 3 in 2 qty with Carrier for products 2 and 3<br><br>4 raw : product 2  in 1 qty with Carrier for products 2 and 3 |
+| On BO > On the last shipment raw, click on the "..." CTA. | Merge CTA is displayed. |
 | Click on the "Merge" CTA. | "Merge shipment" modal is displayed. |
-| On BO > On the Shipment number id 6 line, click on the "..." CTA. | Merge CTA is displayed. |
 | Select Product 2 and select the second shipment. | "Merge shipment" CTA is enabled. |
 | Click on the "Merge shipment" CTA. | "Merge shipment" modal is closed and the page is refreshed. |
-| Click on the "Shipment" tab. | Shipment tab with the table is displayed and the last shipment number is not displayed anymore. |
+| Click on the "Shipment" tab. | Shipment tab with the table is displayed and the last shipment number is not displayed anymore (2 remaining shipments). |
+| On FO > Go to Main menu > Orders > Click on the last order "Details" | Order is displayed. |
+| Check "Shipment tracking details". | 1 raw with carrier for product 1<br><br>1 raw with carrier for products 2 and 3 |
+| Check product details table. | 1 raw : product 1 in 3 qty with Carrier for product 1<br><br>2 raw : product 2 in 3 qty with Carrier for product 1<br><br>3 raw : product 3 in 2 qty with carrier for products 2 and 3<br><br>4 raw : product 2 in 1 qty with carrier for products 2 and 3 |
 | On the Carrier 1 line, click on the pen icon. | "Edit shipment" modal is displayed. |
 | Add a tracking number. | Tracking number is added. |
 | Click on the "Update" CTA. | "Edit shipment" modal is closed and the page is refreshed. |
