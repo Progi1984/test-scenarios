@@ -16,17 +16,17 @@ weight: 12
 | Go on BO > Orders > Add new order. | New order page is displayed. |
 | In the field "Search for a customer", fill with "Doe". | The customer card is displayed. |
 | Click on the CTA "Choose" on the customer card. | The full page is displayed ("Cart" and "Addresses" blocs). |
-| On the bloc "Cart", in the field "Search for a product", type "Product 1". | In the field "Product", the result for "Product 1" is displayed. |
+| On the bloc "Cart", in the field "Search for a product", type "Assiette". | In the field "Product", the result for "Assiette" is displayed. |
 | Select 3 for the quantity. | Quantity selected. |
-| Click on the CTA "Add to cart". | "Product 1" in 3 quantity is in the cart. |
-| On the bloc "Cart", in the field "Search for a product", type "Product 2". | In the field "Product", the result for "Product 2" is displayed. |
+| Click on the CTA "Add to cart". | "Assiette" in 3 quantity is in the cart. |
+| On the bloc "Cart", in the field "Search for a product", type "Chaise". | In the field "Product", the result for "Chaise" is displayed. |
 | Select 4 for the quantity. | Quantity selected. |
-| Click on the CTA "Add to cart". | "Product 2" in 4 quantity is in the cart. |
-| On the bloc "Cart", in the field "Search for a product", type "Product 3". | In the field "Product", the result for "Product 3" is displayed. |
+| Click on the CTA "Add to cart". | "Chaise" in 4 quantity is in the cart. |
+| On the bloc "Cart", in the field "Search for a product", type "Table". | In the field "Product", the result for "Table" is displayed. |
 | Select 2 for the quantity. | Quantity selected. |
-| Click on the CTA "Add to cart". | "Product 3" in 2 quantity is in the cart. |
-| In the "Shipping" bloc, check the carrier. | 2 choices are displayed : <br> * Carrier for product 1 <br> * Carrier for product 2 and 3 |
-| Select Carrier for product 1. | Carrier for product 1 is displayed. |
+| Click on the CTA "Add to cart". | "Table" in 2 quantity is in the cart. |
+| In the "Shipping" bloc, check the carrier. | 2 choices are displayed : <br> * Voiture<br> * Fourgonnette |
+| Select "Voiture". | "Voiture" is displayed. |
 | In the bloc "Summary", choose "Cash on delivery" as payment method. | Method payment is selected. |
 | In the bloc "Summary", choose "Payment accepted" as order status. | Order status is selected. |
 | Click on the CTA "Create order". | Order is done, and detailed order page is displayed. |
@@ -34,27 +34,27 @@ weight: 12
 | Click on the tab "Shipments". | "Shipments" tab is displayed, with the shipment table. |
 | On the first raw (Shipment 1 line), click on the "..." CTA. | 2 options are displayed : <br> * Split<br> * Merge |
 | Click on the CTA "Split". | "Split shipment" modal is displayed. |
-| Select product 1 in 1 quantity. | Modal is refreshed. |
-| Click on the "Select a carrier" drop down menu. | Choice "Carrier for product 1" is displayed. |
-| Unselect Product 1 and select Product 2 in 1 quantity. | Modal is refreshed. |
-| Click on the "Select a carrier" drop down menu. | Choices<br> * "Carrier for product 1"<br> * "Carrier for products 2 and 3"<br><br>are displayed. |
-| Click on "Carrier for products 2 and 3". | Carrier for product 2 and 3 is selected and CTA "Split shipment" is enable. |
+| Select "Assiette" in 1 quantity. | Modal is refreshed. |
+| Click on the "Select a carrier" drop down menu. | Choice "Voiture" is displayed. |
+| Unselect "Assiette" and select "Chaise" in 1 quantity. | Modal is refreshed. |
+| Click on the "Select a carrier" drop down menu. | Choices<br> * "Voiture"<br> * "Fourgonnette"<br><br>are displayed. |
+| Click on "Fourgonette". | "Fourgonette" is selected and CTA "Split shipment" is enable. |
 | Click on "Split shipment" CTA. | The modal is closed and the page is refreshed. |
-| Click on the tab "Shipment". | A new raw is added with "Carrier 2" and shipment number (last one + 1). |
+| Click on the tab "Shipment". | A new raw is added with "Fourgonnette" as carrier and shipment number (last one + 1). |
 | Go to FO > Login page > log in | Logged in. |
 | Go to Main menu > Orders > Click on the last order "Details" | Order is displayed. |
-| Check "Shipment tracking details". | 1 raw with carrier for product 1<br><br>1 raw with carrier for products 2 and 3<br><br>1 raw with carrier for products 2 and 3 |
-| Check product details table. | 1 raw : product 1 in 3 qty with Carrier for product 1<br><br>2 raw : product 2 in 3 qty with Carrier for product 1<br><br>3 raw : product 3 in 2 qty with Carrier for products 2 and 3<br><br>4 raw : product 2  in 1 qty with Carrier for products 2 and 3 |
+| Check "Shipment tracking details". | 1 raw with carrier for Voiture carrier<br><br>1 raw with carrier for Fourgonnette carrier<br><br>1 raw with carrier for Fourgonnette carrier |
+| Check product details table. | 1 raw : Assiette in 3 qty with Voiture carrier<br><br>2 raw : Chaise in 3 qty with Voiture carrier<br><br>3 raw : Table in 2 qty with Fourgonnette carrier<br><br>4 raw : Chaise in 1 qty with Fourgonnette carrier |
 | On BO > On the last shipment raw, click on the "..." CTA. | Merge CTA is displayed. |
 | Click on the "Merge" CTA. | "Merge shipment" modal is displayed. |
-| Select Product 2 and select the second shipment. | "Merge shipment" CTA is enabled. |
+| Select Chaise and select the second shipment. | "Merge shipment" CTA is enabled. |
 | Click on the "Merge shipment" CTA. | "Merge shipment" modal is closed and the page is refreshed. |
 | Click on the "Shipment" tab. | Shipment tab with the table is displayed and the last shipment number is not displayed anymore (2 remaining shipments). |
 | On FO > Go to Main menu > Orders > Click on the last order "Details" | Order is displayed. |
-| Check "Shipment tracking details". | 1 raw with carrier for product 1<br><br>1 raw with carrier for products 2 and 3 |
-| Check product details table. | 1 raw : product 1 in 3 qty with Carrier for product 1<br><br>2 raw : product 2 in 3 qty with Carrier for product 1<br><br>3 raw : product 3 in 2 qty with carrier for products 2 and 3<br><br>4 raw : product 2 in 1 qty with carrier for products 2 and 3 |
+| Check "Shipment tracking details". | 1 raw with Voiture carrier <br><br>1 raw with Fourgonnette carrier |
+| Check product details table. | 1 raw : Assiette in 3 qty with Voiture carrier<br><br>2 raw : Chaise in 3 qty with Voiture carrier<br><br>3 raw : Table in 2 qty with Fourgonnette carrier<br><br>4 raw : Chaise in 1 qty with Fourgonnette carrier |
 | On the Carrier 1 line, click on the pen icon. | "Edit shipment" modal is displayed. |
-| Add a tracking number. | Tracking number is added. |
+| Add a tracking number. | Tracking number is added.<br><br> <br><br>{color:#505f79}_(FO verification is already done in multishipment FO scenario, no need to check in this test)_{color} |
 | Click on the "Update" CTA. | "Edit shipment" modal is closed and the page is refreshed. |
 | Click on the tab "Shipments". | "Shipments" tab is displayed, with the shipment table. The first line has the tracking number filled. |
 | Click on the "..." CTA of the first shipment line. | "Split" and "Merge" CTA are displayed. |
