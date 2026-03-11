@@ -6,7 +6,7 @@ weight: 1
 # blockreassurance - Disable/Enable a bloc
 ## Details
 * **Component** : blockreassurance
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-543
 
 ## Steps

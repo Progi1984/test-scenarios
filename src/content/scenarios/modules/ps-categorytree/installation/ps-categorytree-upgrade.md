@@ -6,7 +6,7 @@ weight: 1
 # ps_categorytree - Upgrade
 ## Details
 * **Component** : ps_categorytree
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-599
 
 ## Steps

@@ -6,7 +6,7 @@ weight: 2
 # statsvisits - Uninstall/Install
 ## Details
 * **Component** : statsvisits
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-697
 
 ## Steps

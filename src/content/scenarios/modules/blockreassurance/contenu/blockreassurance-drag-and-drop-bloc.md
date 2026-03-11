@@ -6,7 +6,7 @@ weight: 5
 # blockreassurance - Drag and drop bloc
 ## Details
 * **Component** : blockreassurance
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-547
 
 ## Steps

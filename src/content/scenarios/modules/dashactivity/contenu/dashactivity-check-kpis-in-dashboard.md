@@ -6,7 +6,7 @@ weight: 1
 # dashactivity - Check KPIs in Dashboard
 ## Details
 * **Component** : dashactivity
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-578
 
 ## Steps

@@ -6,7 +6,7 @@ weight: 1
 # contactform - Upgrade
 ## Details
 * **Component** : contactform
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-562
 
 ## Steps

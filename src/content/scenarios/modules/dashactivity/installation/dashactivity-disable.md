@@ -6,7 +6,7 @@ weight: 5
 # dashactivity - Disable
 ## Details
 * **Component** : dashactivity
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-577
 
 ## Steps

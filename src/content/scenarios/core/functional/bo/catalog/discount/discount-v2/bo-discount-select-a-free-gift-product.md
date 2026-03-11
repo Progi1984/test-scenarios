@@ -13,7 +13,7 @@ weight: 7
 | ----- | ----- |
 | BO > Catalog > Discounts | Discounts page should be displayed<br><br>empty discount list |
 | Click to Create discount | Create cart discount displayed |
-| Fill form and Do not include the name of the discount. | Error message: "The field names is required at least in your default language." |
+| Fill form and Do not include the name of the discount. | Error message: "The form contains errors. Please fix them and save again."<br>"<br>"The field names is required at least in your default language." |
 | Fill form and Do not include free gift | We have 2 messages: "This value should not be blank."<br>and "No product selected" |
 | Fill form and Do not include generate discount code | An error message is displayed:<br>"This value should not be blank." |
 | Fill form and save | Discount page displayed<br><br>Notification :<br><br>Successful update<br><br>The discount has been created<br><br>Discount list = 1 |

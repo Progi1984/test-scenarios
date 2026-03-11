@@ -6,7 +6,7 @@ weight: 1
 # ps_customeraccountlinks - Upgrade
 ## Details
 * **Component** : ps_customeraccountlinks
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-622
 
 ## Steps

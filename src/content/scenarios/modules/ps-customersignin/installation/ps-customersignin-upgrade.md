@@ -6,7 +6,7 @@ weight: 1
 # ps_customersignin - Upgrade
 ## Details
 * **Component** : ps_customersignin
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-441
 
 ## Steps

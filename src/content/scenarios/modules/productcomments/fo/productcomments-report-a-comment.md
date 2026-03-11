@@ -6,7 +6,7 @@ weight: 2
 # productcomments - Report a comment
 ## Details
 * **Component** : productcomments
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-594
 
 ## Steps

@@ -6,7 +6,7 @@ weight: 3
 # ps_sharebuttons - Uninstall and delete
 ## Details
 * **Component** : ps_sharebuttons
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1596
 
 ## Steps

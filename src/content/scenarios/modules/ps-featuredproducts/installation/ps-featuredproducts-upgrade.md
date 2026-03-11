@@ -6,7 +6,7 @@ weight: 1
 # ps_featuredproducts - Upgrade
 ## Details
 * **Component** : ps_featuredproducts
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-664
 
 ## Steps

@@ -6,7 +6,7 @@ weight: 1
 # ps_checkpayment - Configure basic informations
 ## Details
 * **Component** : ps_checkpayment
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-609
 
 ## Steps

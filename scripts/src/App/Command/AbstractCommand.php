@@ -22,6 +22,8 @@ abstract class AbstractCommand extends Command
     /** @var string */
     protected $apiKey = '';
 
+    protected $stats = [];
+
     protected function configure()
     {
         $this->setName($this->name)
@@ -41,15 +43,62 @@ abstract class AbstractCommand extends Command
 
         $this->apiKey = $input->getOption('apikey');
         $this->requestsCount = 0;
+        $this->stats = [];
 
         $folders = $this->getFolders($this->apiKey, $this->projectName);
 
-        $this->processFolder($folders, true);
+        $this->processFolder($folders);
+
+        $this->processStats();
         
         $output->writeLn(['', 'Output generated in ' . (time() - $time) . 's with ' . $this->requestsCount . ' requests.']);
     }
 
-    private function processFolder(array $folder, bool $isRoot): void
+    private function processStats(): void
+    {
+        $statsContent = '---' . PHP_EOL
+            . 'title: "' . $this->projectName . '"' . PHP_EOL
+            . 'disableToc: true' . PHP_EOL
+            . '---' . PHP_EOL
+            . '## ' . $this->projectName . PHP_EOL
+            . PHP_EOL
+            . '| Feature | Total | Draft | In Progress | In Review | Blocked | To Be Automated | Automation In Progress | Automated | Deprecated |' . PHP_EOL
+            . '|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|' . PHP_EOL
+        ;
+        foreach ($this->stats as $key => $stats) {
+            if (array_sum($stats) == 0) {
+                continue;
+            }
+            $statsContent .= '| [' . $key . '](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path='.urlencode(str_replace(' > ', '/', $key)).')'
+                . ' | ' . array_sum($stats)
+                . ' | ' . ($stats['Sandbox'] ?? '-')
+                . ' | ' . ($stats['[Test] In progress'] ?? '-')
+                . ' | ' . ($stats['[Test] IN REVIEW'] ?? '-')
+                . ' | ' . ($stats['[Test] Blocked'] ?? '-')
+                . ' | ' . ($stats['[Test] To be automated'] ?? '-')
+                . ' | ' . ($stats['[Test] Automation in progress'] ?? '-')
+                . ' | ' . ($stats['[Test] Automated'] ?? '-')
+                . ' | ' . ($stats['[Test] Deprecated'] ?? '-')
+                . ' | ' . PHP_EOL;
+        }
+
+        // Footer
+        $statsContent .= '| **Total**'
+            . ' | **' . array_sum(array_map('array_sum', $this->stats)). '**'
+            . ' | **' . array_sum(array_column($this->stats, 'Sandbox')) . '**'
+            . ' | **' . array_sum(array_column($this->stats, '[Test] In progress')) . '**'
+            . ' | **' . array_sum(array_column($this->stats, '[Test] IN REVIEW')) . '**'
+            . ' | **' . array_sum(array_column($this->stats, '[Test] Blocked')) . '**'
+            . ' | **' . array_sum(array_column($this->stats, '[Test] To be automated')) . '**'
+            . ' | **' . array_sum(array_column($this->stats, '[Test] Automation in progress')) . '**'
+            . ' | **' . array_sum(array_column($this->stats, '[Test] Automated')) . '**'
+            . ' | **' . array_sum(array_column($this->stats, '[Test] Deprecated')) . '**'
+            . ' | ' . PHP_EOL;
+
+        file_put_contents(self::OUTPUT_DIR . DIRECTORY_SEPARATOR . $this->statsFile, $statsContent);
+    }
+
+    private function processFolder(array $folder, string $folderName = '', bool $isRoot = true): void
     {
         $dirName = self::OUTPUT_DIR
         . (
@@ -71,25 +120,39 @@ abstract class AbstractCommand extends Command
         $content = $this->getParentContent($folder['name'], $folder['rank'], !$isRoot, $this->pageWeight);
         file_put_contents($dirName . '_index.md', $content);
 
+        $folderName = ($folderName == '' ? '' : ($folderName . ' > ')) . $folder['name'];
+
         // Process tests
         $tests = $this->getTests($this->apiKey, $folder['id']);
-        $this->processTests($dirName, $tests);
+        $stats = $this->processTests($dirName, $tests);
+        
+        $this->stats[$folderName] = $stats;
         
         // Process Children
         foreach($folder['folders'] as $folderChild) {
-            $this->processFolder($folderChild, false);
+            $this->processFolder($folderChild, $folderName, false);
         }
     }
 
-    private function processTests(string $dirName, array $tests): void
+    private function processTests(string $dirName, array $tests): array
     {
+        $stats = [];
         foreach($tests as $test) {
+            if (!isset($stats[$test['workflowStatus']])) {
+                $stats[$test['workflowStatus']] = 0;
+            }
+            $stats[$test['workflowStatus']]++;
+
             $steps = $this->getTestSteps($this->apiKey, $test['key']);
             file_put_contents(
                 $dirName . $this->slugify($test['summary'], false). '.md',
                 $this->getTestContent($test, $steps)
             );
         }
+
+        ksort($stats);
+
+        return $stats;
     }
 
     protected function slugify(string $text, bool $isDir): string

@@ -6,7 +6,7 @@ weight: 1
 # statsvisits - Upgrade
 ## Details
 * **Component** : statsvisits
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-696
 
 ## Steps

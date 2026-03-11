@@ -6,7 +6,7 @@ weight: 1
 # BO - Debug mode
 ## Details
 * **Component** : Core
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-705
 
 ## Steps
