@@ -6,7 +6,7 @@ weight: 4
 # BO - Catalog - Products - Add Virtual Product
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-784
 
 ## Steps

@@ -6,11 +6,14 @@ weight: 3
 # ps_featuredproducts - Randomly display featured products
 ## Details
 * **Component** : ps_featuredproducts
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-669
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Enable the option Randomly display featured products" | A message should appear in green.<br>The option should be enabled |
+| BO > Modules > Module Manager > Featured products | Featured products page displayed |
+| Enable the option "Randomly display featured products" and Save | A message should appear in green. <br>The settings have been updated.<br><br>The option should be enabled |
 | Go to front office/check the homepage | Product shouldn't be display by id but randomly |
+| Disable the option "Randomly display featured products" and Save | A message should appear in green. <br>The settings have been updated.<br><br>The option should be disabled |
+| Go to front office/check the homepage | Product shoul be display by id |

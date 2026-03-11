@@ -6,7 +6,7 @@ weight: 2
 # statsbestcustomers - Uninstall/Install
 ## Details
 * **Component** : statsbestcustomers
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-693
 
 ## Steps

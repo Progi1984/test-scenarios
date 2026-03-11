@@ -6,7 +6,7 @@ weight: 1
 # ps_sharebuttons - Enable / disable facebook sharing
 ## Details
 * **Component** : ps_sharebuttons
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1597
 
 ## Steps
@@ -14,3 +14,8 @@ weight: 1
 | ----- | ----- |
 | Disable Facebook Sharing | An automatic registration is made <br>On FO, on a product, the Facebook logo is absent |
 | Enable Facebook sharing | An automatic registration is made <br>On FO, on a product, Facebook logo appear<br>Click on it, a new page for Facebook site is open |
+| BO > Modules > Module Manager > Social media share buttons | Social media share buttons page displayed |
+| Disable Facebook Sharing and save | The settings have been successfully updated notification displayed |
+| Go to FO > click on a product | the Facebook logo is absent |
+| On BO, Enable Facebook sharing and save | The settings have been successfully updated notification displayed |
+| Go to FO > click on a product | Facebook label is here |

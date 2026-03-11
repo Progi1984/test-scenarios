@@ -22,7 +22,7 @@ disableToc: true
 | [Core > Functional > API > Endpoints > Product](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FProduct) | 11 | - | - | - | - | - | - | 11 | - | 
 | [Core > Functional > API > Endpoints > SearchAlias](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FSearchAlias) | 1 | - | - | - | - | - | - | 1 | - | 
 | [Core > Functional > API > Endpoints > Zone](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FZone) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Functional > BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO) | 4 | - | - | - | - | 1 | - | - | 2 | 
+| [Core > Functional > BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO) | 4 | - | 1 | - | - | 1 | - | - | 2 | 
 | [Core > Functional > BO > Login](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FLogin) | 4 | - | - | - | - | - | - | 4 | - | 
 | [Core > Functional > BO > Dashboard](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FDashboard) | 5 | 1 | - | - | - | - | - | 4 | - | 
 | [Core > Functional > BO > Orders > Orders](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FOrders) | 12 | - | - | - | 1 | - | - | 10 | 1 | 
@@ -34,7 +34,7 @@ disableToc: true
 | [Core > Functional > BO > Orders > Delivery Slips](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FDelivery+Slips) | 1 | - | - | - | - | - | - | 1 | - | 
 | [Core > Functional > BO > Orders > Delivery Slips > Delivery Slips Options](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FDelivery+Slips%2FDelivery+Slips+Options) | 3 | - | - | - | - | - | - | 3 | - | 
 | [Core > Functional > BO > Orders > Shopping carts](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FShopping+carts) | 7 | - | - | - | - | 1 | - | 5 | 1 | 
-| [Core > Functional > BO > Catalog > ProductsV1](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FProductsV1) | 6 | 2 | - | - | - | - | - | - | - | 
+| [Core > Functional > BO > Catalog > ProductsV1](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FProductsV1) | 6 | - | - | - | - | - | - | - | 6 | 
 | [Core > Functional > BO > Catalog > ProductsV2](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FProductsV2) | 22 | - | - | - | - | 1 | - | 21 | - | 
 | [Core > Functional > BO > Catalog > Categories](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FCategories) | 8 | - | - | - | - | 4 | - | 4 | - | 
 | [Core > Functional > BO > Catalog > Monitoring](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FMonitoring) | 4 | 1 | - | - | - | - | - | 3 | - | 
@@ -196,4 +196,4 @@ disableToc: true
 | [Core > Orders Campaign > Create order FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+FO) | 6 | 6 | - | - | - | - | - | - | - | 
 | [Core > Orders Campaign > Create order BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+BO) | 8 | 8 | - | - | - | - | - | - | - | 
 | [Core > Upgrade](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FUpgrade) | 12 | 12 | - | - | - | - | - | - | - | 
-| **Total** | **994** | **120** | **57** | **4** | **11** | **82** | **7** | **675** | **26** | 
+| **Total** | **994** | **118** | **58** | **4** | **11** | **82** | **7** | **675** | **32** | 

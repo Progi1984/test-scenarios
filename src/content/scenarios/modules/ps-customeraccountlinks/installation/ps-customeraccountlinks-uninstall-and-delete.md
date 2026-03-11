@@ -6,7 +6,7 @@ weight: 3
 # ps_customeraccountlinks - Uninstall and delete
 ## Details
 * **Component** : ps_customeraccountlinks
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-624
 
 ## Steps

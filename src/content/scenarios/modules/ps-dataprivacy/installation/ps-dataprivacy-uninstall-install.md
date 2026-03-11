@@ -6,7 +6,7 @@ weight: 2
 # ps_dataprivacy - Uninstall/Install
 ## Details
 * **Component** : ps_dataprivacy
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-632
 
 ## Steps

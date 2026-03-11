@@ -6,15 +6,14 @@ weight: 1
 # ps_crossselling - Enable / Disable Show price
 ## Details
 * **Component** : ps_crossselling
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-619
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Click on the switch button to disable the option | The switch button should be red |
-| Click on the button save | A message should appear |
+| BO > Modules > Module Manager > Cross-selling | Cross-selling page displayed |
+| Click on the switch button and save | The settings have been updated. |
 | Go to FO and check a product | you should saw in the bloc crossselling product brought with this product without price |
-| Click on the switch button to enable the option | The switch button should be blue |
-| Click on the button save | A message should appear |
+| Click on the switch button and save | The settings have been updated |
 | Go to FO and check a product | you should saw in the bloc crossselling product brought with this product with price |

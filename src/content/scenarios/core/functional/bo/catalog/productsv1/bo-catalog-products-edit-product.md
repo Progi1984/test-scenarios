@@ -6,7 +6,7 @@ weight: 5
 # BO - Catalog - Products - Edit Product
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-785
 
 ## Steps

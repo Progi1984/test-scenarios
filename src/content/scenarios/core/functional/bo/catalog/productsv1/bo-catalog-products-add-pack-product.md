@@ -6,7 +6,7 @@ weight: 3
 # BO - Catalog - Products - Add Pack Product
 ## Details
 * **Component** : Core
-* **Status** : Approved
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-783
 
 ## Steps

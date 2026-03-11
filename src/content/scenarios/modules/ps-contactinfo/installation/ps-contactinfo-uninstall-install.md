@@ -6,7 +6,7 @@ weight: 2
 # ps_contactinfo - Uninstall/Install
 ## Details
 * **Component** : ps_contactinfo
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-611
 
 ## Steps

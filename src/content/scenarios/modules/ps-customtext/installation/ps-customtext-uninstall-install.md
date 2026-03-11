@@ -6,7 +6,7 @@ weight: 2
 # ps_customtext - Uninstall/Install
 ## Details
 * **Component** : ps_customtext
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-627
 
 ## Steps

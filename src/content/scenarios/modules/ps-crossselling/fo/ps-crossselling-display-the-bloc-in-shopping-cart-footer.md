@@ -6,7 +6,7 @@ weight: 1
 # ps_crossselling - Display the bloc in  shopping cart footer
 ## Details
 * **Component** : ps_crossselling
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-621
 
 ## Steps

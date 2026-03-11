@@ -6,12 +6,13 @@ weight: 1
 # ps_dataprivacy - Change message for customer
 ## Details
 * **Component** : ps_dataprivacy
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-634
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
+| BO > Modules > Module Manager > Customer data privacy block | Customer data privacy block page displayed |
 | Change text, add some special character and some style (bold...) and save | New text should be saved |
 | Change the language and change text. Save the new change | New text should be saved |
 | Go to Front office <br>Open the account creation page | New message should be displayed |

@@ -6,15 +6,16 @@ weight: 2
 # ps_crossselling - Change number of product display in the crossselling bloc
 ## Details
 * **Component** : ps_crossselling
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-620
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Change the option from 8 to 5 and click on the button save | A message should appear |
+| BO > Modules > Module Manager > Cross-selling | Cross-selling page displayed |
+| Change the number of displayed products and click on the button save | The settings have been updated. |
 | Go to the front office and select a product | FO and product page should be displayed |
 | Check the footer | Number of product should be 5 |
-| Change the option from 5 to 10 and click on the button save | A message should appear |
+| Change the option from 5 to 10 and click on the button save | The settings have been updated. |
 | Go to the front office and select a product | FO and product page should be displayed |
-| Check the footer | Number of product should be 5 |
+| Check the footer | Number of product should be 10 |

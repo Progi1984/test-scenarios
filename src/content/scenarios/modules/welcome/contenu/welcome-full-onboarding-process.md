@@ -6,7 +6,7 @@ weight: 1
 # welcome - Full onboarding process
 ## Details
 * **Component** : welcome
-* **Status** : Approved
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-700
 
 ## Steps

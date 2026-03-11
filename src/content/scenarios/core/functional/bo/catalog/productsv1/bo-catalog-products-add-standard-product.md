@@ -6,7 +6,7 @@ weight: 2
 # BO - Catalog - Products - Add Standard Product
 ## Details
 * **Component** : Core
-* **Status** : Approved
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-782
 
 ## Steps
