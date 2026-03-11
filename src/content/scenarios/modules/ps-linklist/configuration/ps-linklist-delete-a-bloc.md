@@ -6,7 +6,7 @@ weight: 3
 # ps_linklist - Delete a bloc
 ## Details
 * **Component** : ps_linklist
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-675
 
 ## Steps

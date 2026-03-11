@@ -6,7 +6,7 @@ weight: 1
 # ps_sharebuttons - Upgrade
 ## Details
 * **Component** : ps_sharebuttons
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1594
 
 ## Steps

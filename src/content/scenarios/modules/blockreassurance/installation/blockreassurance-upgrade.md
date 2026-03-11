@@ -6,7 +6,7 @@ weight: 1
 # blockreassurance - Upgrade
 ## Details
 * **Component** : blockreassurance
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-540
 
 ## Steps

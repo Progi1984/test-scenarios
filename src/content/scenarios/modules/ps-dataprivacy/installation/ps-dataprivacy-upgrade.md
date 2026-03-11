@@ -6,7 +6,7 @@ weight: 1
 # ps_dataprivacy - Upgrade
 ## Details
 * **Component** : ps_dataprivacy
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-631
 
 ## Steps

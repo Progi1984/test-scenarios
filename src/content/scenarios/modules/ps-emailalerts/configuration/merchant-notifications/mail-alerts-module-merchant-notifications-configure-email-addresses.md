@@ -6,15 +6,15 @@ weight: 10
 # Mail alerts module - Merchant notifications - Configure email addresses
 ## Details
 * **Component** : ps_emailalerts
-* **Status** : Approved
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4125
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > Modules > Module manager and search ps_emailalerts | The module page list should be displayed and *Mail alerts* module should be displayed on the list |
-| Click on "Configure" button at the right of the module | * The "Configure" page is displayed<br> * There are 2 sections: "Customer notifications" and "Merchant notifications"<br> * On "Merchant notifications": "Email addresses" is set with your email by default (xx@xx.com) |
-| Go to Catalog > Products (open it in a new tab) > Click on the product created to go to its product details page (pre-condition) > On "Basic settings" tab, set 2 in "Quantity field > Click on "Save" button | A successful message "Settings updated." is displayed |
+| Click on "Configure" button at the right of the module | * The "Configure" page is displayed<br> * There are 2 sections: "Customer notifications" and "Merchant notifications" |
+| Go to Catalog > Products (open it in a new tab) > Click on the product created to go to its product details page (pre-condition) > On "Stocks" tab, set 2 in quantity> Click on "Save and publish" button | A successful message "Settings updated." is displayed |
 | Go to your email (pre-condition) > Check email received | The "Product out of stock" email is sent at your email saved: xx@xx.com |
 | Go back to BO, on "Configure" page of the module > Add a new address below the first one > Click on "Save" button | * A successful message "Settings updated successfully" is displayed<br> * Both emails are saved in "Email addresses" field |
 | Go to back to your product details page tab > Click on "Save" button without change nothing | A successful message "Settings updated." is displayed |

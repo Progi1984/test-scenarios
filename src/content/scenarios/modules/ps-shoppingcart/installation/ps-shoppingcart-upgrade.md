@@ -6,7 +6,7 @@ weight: 1
 # ps_shoppingcart - Upgrade
 ## Details
 * **Component** : ps_shoppingcart
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-681
 
 ## Steps

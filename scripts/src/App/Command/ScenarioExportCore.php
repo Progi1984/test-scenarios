@@ -12,5 +12,8 @@ class ScenarioExportCore extends AbstractCommand
     /** @var string */
     protected $description = 'Scenario QA : Export Core';
 
+    /** @var string */
+    protected $statsFile = 'stats/core.md';
+
     protected $pageWeight = 1;
 }

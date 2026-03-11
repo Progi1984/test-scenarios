@@ -6,7 +6,7 @@ weight: 3
 # contactform - Uninstall and delete
 ## Details
 * **Component** : contactform
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-564
 
 ## Steps

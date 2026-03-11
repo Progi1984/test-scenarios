@@ -6,7 +6,7 @@ weight: 1
 # statsbestcustomers - Upgrade
 ## Details
 * **Component** : statsbestcustomers
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-692
 
 ## Steps

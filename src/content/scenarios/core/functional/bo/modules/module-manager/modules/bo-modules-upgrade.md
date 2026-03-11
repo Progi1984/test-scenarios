@@ -6,7 +6,7 @@ weight: 10
 # BO - Modules - Upgrade
 ## Details
 * **Component** : Core
-* **Status** : Blocked
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-886
 
 ## Steps

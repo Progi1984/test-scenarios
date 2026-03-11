@@ -6,7 +6,7 @@ weight: 2
 # Official GDPR module - Uninstall/Install module
 ## Details
 * **Component** : psgdpr
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4405
 
 ## Steps

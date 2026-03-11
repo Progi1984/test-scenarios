@@ -6,7 +6,7 @@ weight: 3
 # ps_categorytree - Uninstall and delete
 ## Details
 * **Component** : ps_categorytree
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-601
 
 ## Steps

@@ -6,7 +6,7 @@ weight: 2
 # ps_searchbar - Uninstall/Install
 ## Details
 * **Component** : ps_searchbar
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-677
 
 ## Steps

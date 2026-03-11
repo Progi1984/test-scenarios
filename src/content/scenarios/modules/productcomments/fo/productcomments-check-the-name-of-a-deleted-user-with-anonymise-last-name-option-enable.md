@@ -6,7 +6,7 @@ weight: 4
 # productcomments - Check the name of a deleted user with anonymise last name option enable
 ## Details
 * **Component** : productcomments
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-596
 
 ## Steps
