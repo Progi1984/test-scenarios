@@ -42,10 +42,11 @@ body:
       description: List the exact steps of the scenario
       value: |
         <!-- This is a sample : Modify cells in the table -->
-        | Step Description | Expected result |
-        | ---------------- | --------------- |
-        | Go to customers > addresses page  | Page title contains ‘Addresses’  |
-        | reset all filters  | Number of addresses > 0  |
+        | Step Description | Data | Expected result |
+        | ---------------- | --------------- | --------------- |
+        | Go to Customers > Addresses page | | Page title contains ‘Addresses’  |
+        | Reset all filters | | Number of addresses > 0  |
+        | Filter on Column "Firstname" and Click on Search | "John" | Number of addresses  =1 0  |
     validations:
       required: true
   - type: input
