@@ -53,6 +53,7 @@ weight: 12
 | On FO > Go to Main menu > Orders > Click on the last order "Details" | Order is displayed. |
 | Check "Shipment tracking details". | 1 raw with Voiture carrier <br><br>1 raw with Fourgonnette carrier |
 | Check product details table. | 1 raw : Assiette in 3 qty with Voiture carrier<br><br>2 raw : Chaise in 3 qty with Voiture carrier<br><br>3 raw : Table in 2 qty with Fourgonnette carrier<br><br>4 raw : Chaise in 1 qty with Fourgonnette carrier |
+| Go back to BO | The view order page is displayed |
 | On the Carrier 1 line, click on the pen icon. | "Edit shipment" modal is displayed. |
 | Add a tracking number. | Tracking number is added.<br><br> <br><br>{color:#505f79}_(FO verification is already done in multishipment FO scenario, no need to check in this test)_{color} |
 | Click on the "Update" CTA. | "Edit shipment" modal is closed and the page is refreshed. |

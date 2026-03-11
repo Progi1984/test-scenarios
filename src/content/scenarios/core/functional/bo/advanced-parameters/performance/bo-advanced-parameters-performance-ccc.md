@@ -1,11 +1,11 @@
 ---
 title: "BO - Advanced Parameters - Performance - CCC"
-weight: 4
+weight: 5
 ---
 
 # BO - Advanced Parameters - Performance - CCC
 ## Details
 * **Component** : Core
-* **Status** : Blocked
+* **Status** : Sandbox
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1137
 

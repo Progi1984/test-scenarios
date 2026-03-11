@@ -6,8 +6,9 @@ weight: 3
 # BO - Advanced Parameters - Database - SQL Manager - Settings
 ## Details
 * **Component** : Core
-* **Status** : In progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1165
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/database/sql-manager
 
 ## Steps
 | Step Description | Expected result |

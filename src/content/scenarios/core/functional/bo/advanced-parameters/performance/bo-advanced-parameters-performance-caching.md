@@ -1,11 +1,11 @@
 ---
 title: "BO - Advanced Parameters - Performance - Caching"
-weight: 6
+weight: 7
 ---
 
 # BO - Advanced Parameters - Performance - Caching
 ## Details
 * **Component** : Core
-* **Status** : Blocked
+* **Status** : Sandbox
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1139
 
