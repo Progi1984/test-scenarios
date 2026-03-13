@@ -6,7 +6,7 @@ weight: 2
 # productcomments - Enable/disable the authorization for guest user to comment
 ## Details
 * **Component** : productcomments
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-585
 
 ## Steps

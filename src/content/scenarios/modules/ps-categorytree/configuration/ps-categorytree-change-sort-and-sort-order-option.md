@@ -6,7 +6,7 @@ weight: 3
 # ps_categorytree - Change Sort and Sort order option
 ## Details
 * **Component** : ps_categorytree
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-604
 
 ## Steps

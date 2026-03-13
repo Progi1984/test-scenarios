@@ -6,7 +6,7 @@ weight: 2
 # ps_customersignin - Uninstall/Install
 ## Details
 * **Component** : ps_customersignin
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-442
 
 ## Steps

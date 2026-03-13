@@ -6,7 +6,7 @@ weight: 1
 # ps_categorytree - Change category root option
 ## Details
 * **Component** : ps_categorytree
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-602
 
 ## Steps

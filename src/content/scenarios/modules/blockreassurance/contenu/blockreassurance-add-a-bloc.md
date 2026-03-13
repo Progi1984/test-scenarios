@@ -6,7 +6,7 @@ weight: 4
 # blockreassurance - Add a bloc
 ## Details
 * **Component** : blockreassurance
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-546
 
 ## Steps

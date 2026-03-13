@@ -6,7 +6,7 @@ weight: 2
 # ps_categorytree - Change Maximum depth option
 ## Details
 * **Component** : ps_categorytree
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-603
 
 ## Steps

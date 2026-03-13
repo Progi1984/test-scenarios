@@ -6,7 +6,7 @@ weight: 3
 # blockreassurance - Uninstall and delete
 ## Details
 * **Component** : blockreassurance
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-542
 
 ## Steps

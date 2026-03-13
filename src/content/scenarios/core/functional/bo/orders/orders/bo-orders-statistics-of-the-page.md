@@ -6,7 +6,7 @@ weight: 9
 # BO - Orders - Statistics of the page
 ## Details
 * **Component** : Core
-* **Status** : Blocked
+* **Status** : IN REVIEW
 * **Scenario** : https://forge.prestashop.com/browse/TEST-730
 
 ## Steps

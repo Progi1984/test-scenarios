@@ -6,7 +6,7 @@ weight: 4
 # BO - CRUD Pack of products
 ## Details
 * **Component** : Core
-* **Status** : Blocked
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-3551
 
 ## Steps
@@ -17,7 +17,7 @@ weight: 4
 | Click on "Add new product" button | * New Product page on "Description" tab is displayed<br> * "Pack of products" type description is displayed below the product name field |
 | Fill the main informations on "Description" tab | * The content is added |
 | Go to "Details" tab > Fill the "Reference" field | * The content is added |
-| Go to "Stock" tab > Edit quantity of the product | * The content is added |
+| Go to "Pack" tab > Edit quantity of the product | * The content is added |
 | Go to "Pricing" tab > Edit "Retail price" section | * The content is added |
 | Click on the "Offline" switch button at the top of the page (below the product name) & Click on the "Save button" at the bottom of the page | * The switch button is set to "Online" and is green<br> * "Successful update" message is displayed<br> * The "Save" button is changed by "Save and publish" button |
 | Click on "Preview" button at the bottom of the page and check all data is correct on the preview | * New tab is opened to show the product in FO.<br> * Product is displayed correctly.<br> * Data is correct on the preview in FO |

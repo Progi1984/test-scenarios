@@ -6,7 +6,7 @@ weight: 2
 # contactform - Enable/Disable email copy to merchant
 ## Details
 * **Component** : contactform
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-566
 
 ## Steps

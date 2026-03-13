@@ -5,7 +5,7 @@ weight: 7
 
 # BO - Discount - Select a free gift product 
 ## Details
-* **Status** : Blocked
+* **Status** : IN REVIEW
 * **Scenario** : https://forge.prestashop.com/browse/TEST-11264
 
 ## Steps
@@ -27,3 +27,4 @@ weight: 7
 | Catalog>Discount>Edit discount "Free gift" | The discount form is displayed. |
 | Fill form and save | Discount page displayed<br><br>Notification :<br><br>Successful update<br><br>The discount has been created<br><br>Discount list = 2 |
 | Go back to FO>Remove all items from the cart>Add an item to the cart>Click on proceed to checkout>Enter the discount code | We have this: <br><br><br>| 2 items |€49.08|<br>|Discount(s)|-€14.28 |<br>|Shipping| Free|<br>|Total (tax incl.)|€34.80|<br>|free gift|-€14.28| |
+| Go back to BO>Catalog>Discount>Select the discount created>Click to the bulk actions> Choose "delete selected">Click to the buttom "Delete" | We have a sucessfull message: "The selection has been successfully deleted."<br><br>And the list of discount = 0 |

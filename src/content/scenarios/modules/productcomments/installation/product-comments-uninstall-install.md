@@ -6,7 +6,7 @@ weight: 2
 # Product comments - Uninstall/Install
 ## Details
 * **Component** : productcomments
-* **Status** : Approved
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-582
 
 ## Steps

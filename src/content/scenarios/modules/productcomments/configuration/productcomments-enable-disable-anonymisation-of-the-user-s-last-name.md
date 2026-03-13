@@ -6,7 +6,7 @@ weight: 4
 # productcomments - Enable/disable anonymisation of the user\'s last name
 ## Details
 * **Component** : productcomments
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-587
 
 ## Steps

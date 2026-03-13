@@ -25,7 +25,7 @@ disableToc: true
 | [Core > Functional > BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO) | 4 | - | 1 | - | - | 1 | - | - | 2 | 
 | [Core > Functional > BO > Login](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FLogin) | 4 | - | - | - | - | - | - | 4 | - | 
 | [Core > Functional > BO > Dashboard](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FDashboard) | 5 | 1 | - | - | - | - | - | 4 | - | 
-| [Core > Functional > BO > Orders > Orders](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FOrders) | 12 | - | - | - | 1 | - | - | 10 | 1 | 
+| [Core > Functional > BO > Orders > Orders](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FOrders) | 12 | - | - | 1 | - | - | - | 10 | 1 | 
 | [Core > Functional > BO > Orders > Orders > View and edit an order](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FOrders%2FView+and+edit+an+order) | 13 | - | - | - | - | - | - | 13 | - | 
 | [Core > Functional > BO > Orders > Orders > Create an order](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FOrders%2FCreate+an+order) | 13 | - | - | - | - | 3 | 1 | 9 | - | 
 | [Core > Functional > BO > Orders > Invoices](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FInvoices) | 2 | - | - | - | - | - | - | 2 | - | 
@@ -48,7 +48,7 @@ disableToc: true
 | [Core > Functional > BO > Catalog > Discount > Cart rules > CRUD Cart rule > Conditions](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FDiscount%2FCart+rules%2FCRUD+Cart+rule%2FConditions) | 11 | - | - | - | - | - | - | 11 | - | 
 | [Core > Functional > BO > Catalog > Discount > Cart rules > CRUD Cart rule > Actions](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FDiscount%2FCart+rules%2FCRUD+Cart+rule%2FActions) | 11 | - | - | - | - | - | - | 11 | - | 
 | [Core > Functional > BO > Catalog > Discount > Catalog price rules](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FDiscount%2FCatalog+price+rules) | 10 | - | - | 1 | 1 | 4 | - | 4 | - | 
-| [Core > Functional > BO > Catalog > Discount > Discount v2](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FDiscount%2FDiscount+v2) | 24 | 15 | 4 | - | 2 | 2 | - | 1 | - | 
+| [Core > Functional > BO > Catalog > Discount > Discount v2](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FDiscount%2FDiscount+v2) | 24 | 15 | 4 | 2 | - | 2 | - | 1 | - | 
 | [Core > Functional > BO > Catalog > Stocks](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FStocks) | 8 | - | - | - | - | 2 | - | 6 | - | 
 | [Core > Functional > BO > Catalog > Stocks > Movements](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FStocks%2FMovements) | 2 | - | - | - | - | - | - | 2 | - | 
 | [Core > Functional > BO > Customers > Customers](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCustomers%2FCustomers) | 11 | - | - | - | - | 2 | - | 9 | - | 
@@ -184,7 +184,7 @@ disableToc: true
 | [Core > Regression > FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FRegression%2FFO) | 1 | - | - | 1 | - | - | - | - | - | 
 | [Core > Sanity > InstallShop](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FInstallShop) | 1 | - | - | - | - | - | - | 1 | - | 
 | [Core > Sanity > ProductsBO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FProductsBO) | 5 | - | - | - | - | - | - | 5 | - | 
-| [Core > Sanity > ProductV2BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FProductV2BO) | 8 | - | - | - | 1 | 1 | - | 6 | - | 
+| [Core > Sanity > ProductV2BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FProductV2BO) | 8 | - | 1 | - | - | 1 | - | 6 | - | 
 | [Core > Sanity > OrdersBO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FOrdersBO) | 2 | - | - | - | - | - | - | 2 | - | 
 | [Core > Sanity > CatalogFO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FCatalogFO) | 2 | - | - | - | - | - | - | 2 | - | 
 | [Core > Sanity > CartFO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FCartFO) | 1 | - | - | - | - | - | - | 1 | - | 
@@ -196,4 +196,4 @@ disableToc: true
 | [Core > Orders Campaign > Create order FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+FO) | 6 | 6 | - | - | - | - | - | - | - | 
 | [Core > Orders Campaign > Create order BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+BO) | 8 | 8 | - | - | - | - | - | - | - | 
 | [Core > Upgrade](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FUpgrade) | 12 | 12 | - | - | - | - | - | - | - | 
-| **Total** | **994** | **118** | **58** | **4** | **11** | **82** | **7** | **675** | **32** | 
+| **Total** | **994** | **118** | **59** | **7** | **7** | **82** | **7** | **675** | **32** | 
