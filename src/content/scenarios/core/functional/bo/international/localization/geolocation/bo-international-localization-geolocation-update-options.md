@@ -6,7 +6,7 @@ weight: 1
 # BO - International - Localization - Geolocation - Update options
 ## Details
 * **Component** : Core
-* **Status** : Blocked
+* **Status** : IN REVIEW
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1007
 
 ## Steps

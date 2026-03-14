@@ -6,7 +6,7 @@ weight: 6
 # BO - Design - Image Settings - Delete Bulk actions -  feature not integrated -
 ## Details
 * **Component** : Core
-* **Status** : Blocked
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5153
 
 ## Steps
@@ -14,7 +14,7 @@ weight: 6
 | ----- | ----- |
 | Do the Precondition "BO - Image Settings - Create an Image type random" four times | You'll have four new image type |
 | * Clic on the checkbox next to the first two Image type create | The checkbox should be checked next to them |
-| * Clic on the "Bulk actions" Button<br> * Clic on the "Delete selected" button | * You'll have three other selection on the slide up "Select all", "Unselect all" and "Delete selected"<br> * A new modal named "Are your sure you want to delete this image seeting?" should be dislpayed |
+| * Clic on the "Bulk actions" Button<br> * Clic on the "Delete selected" button | * You'll have three other selection on the slide up "Select all", "Unselect all" and "Delete selected"<br> * A new modal named "Are you sure you want to delete the selected item(s)?" should be dislpayed |
 | * Clic on the red Delete button | * A progress bar wil be displayed during the deletion <br> * The first two image should be deleted<br> * Image relative to this image type should not be removed |
 | * Clic on the checkbox next to the two last Image type create | * Checkboxes should be checked next to them |
 | * Clic on the "Bulk actions" Button<br> * Clic on the "Delete selected" button | * You'll have three other selection on the slide up "Select all", "Unselect all" and "Delete selected"<br> * A new modal named "Are your sure you want to delete this image seeting?" should be dislpayed |
