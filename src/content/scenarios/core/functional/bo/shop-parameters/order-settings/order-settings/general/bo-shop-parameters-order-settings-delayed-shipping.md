@@ -6,6 +6,6 @@ weight: 6
 # BO - Shop Parameters - Order Settings - Delayed shipping
 ## Details
 * **Component** : Core
-* **Status** : Blocked
+* **Status** : Sandbox
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1054
 

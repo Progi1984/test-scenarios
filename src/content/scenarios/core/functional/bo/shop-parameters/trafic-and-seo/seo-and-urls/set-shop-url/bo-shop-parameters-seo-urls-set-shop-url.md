@@ -6,6 +6,6 @@ weight: 1
 # BO - Shop Parameters - SEO & URLs - Set shop URL
 ## Details
 * **Component** : Core
-* **Status** : Blocked
+* **Status** : Sandbox
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1112
 
