@@ -97,11 +97,17 @@ weight: %d
 
             if ($configItem['title'] === 'autoupgrade') {
                 foreach ([
-                    '.github/workflows/ui-test/nightly.json',
-                    '.github/workflows/ui-test/sanity.json',
+                    '.github/workflows/ui-test/nightly-classic-ui.json',
+                    '.github/workflows/ui-test/nightly-cli.json',
+                    '.github/workflows/ui-test/nightly-ui.json',
+                    '.github/workflows/ui-test/pr-classic-ui.json',
+                    '.github/workflows/ui-test/pr-cli.json',
+                    '.github/workflows/ui-test/pr-ui.json',
+                    '.github/workflows/ui-test/rollback-ui.json',
                 ] as $file) {
                     $content = file_get_contents($configItem['path'] . $file);
                     $data = json_decode($content, true);
+                    $results[$file] = [];
                     foreach ($data['include'] as $datum) {
                         if (count(array_keys($datum)) > 1
                             && isset($datum['comment'])
