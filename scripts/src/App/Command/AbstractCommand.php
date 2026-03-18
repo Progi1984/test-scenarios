@@ -12,8 +12,8 @@ abstract class AbstractCommand extends Command
 
     private const OUTPUT_DIR = 'src/content/scenarios';
 
-    protected const JIRA_ToBeAutomated = '[TEST] To be automated';
-    protected const JIRA_AutomationInProgress = '[TEST] Automation in progress';
+    protected const JIRA_ToBeAutomated = '[Test] To be automated';
+    protected const JIRA_AutomationInProgress = '[Test] Automation in progress';
     protected const JIRA_Automated = '[Test] Automated';
 
     /** @var int */
@@ -75,9 +75,9 @@ abstract class AbstractCommand extends Command
                 . ' | ' . ($stats['[Test] In progress'] ?? '-')
                 . ' | ' . ($stats['[Test] IN REVIEW'] ?? '-')
                 . ' | ' . ($stats['[Test] Blocked'] ?? '-')
-                . ' | ' . ($stats['[Test] To be automated'] ?? '-')
-                . ' | ' . ($stats['[Test] Automation in progress'] ?? '-')
-                . ' | ' . ($stats['[Test] Automated'] ?? '-')
+                . ' | ' . ($stats[self::JIRA_ToBeAutomated] ?? '-')
+                . ' | ' . ($stats[self::JIRA_AutomationInProgress] ?? '-')
+                . ' | ' . ($stats[self::JIRA_Automated] ?? '-')
                 . ' | ' . ($stats['[Test] Deprecated'] ?? '-')
                 . ' | ' . PHP_EOL;
         }
@@ -88,9 +88,9 @@ abstract class AbstractCommand extends Command
         $numInProgress = array_sum(array_column($this->stats, '[Test] In progress'));
         $numInReview = array_sum(array_column($this->stats, '[Test] IN REVIEW'));
         $numBlocked = array_sum(array_column($this->stats, '[Test] Blocked'));
-        $numToBeAutomated = array_sum(array_column($this->stats, '[Test] To be automated'));
-        $numAutomationInProgress = array_sum(array_column($this->stats, '[Test] Automation in progress'));
-        $numAutomated = array_sum(array_column($this->stats, '[Test] Automated'));
+        $numToBeAutomated = array_sum(array_column($this->stats, self::JIRA_ToBeAutomated));
+        $numAutomationInProgress = array_sum(array_column($this->stats, self::JIRA_AutomationInProgress));
+        $numAutomated = array_sum(array_column($this->stats, self::JIRA_Automated));
         $numDeprecated = array_sum(array_column($this->stats, '[Test] Deprecated'));
 
         $statsContent .= '| **Total**'
