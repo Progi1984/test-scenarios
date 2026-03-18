@@ -83,16 +83,38 @@ abstract class AbstractCommand extends Command
         }
 
         // Footer
+        $numTotal = array_sum(array_map('array_sum', $this->stats));
+        $numDraft = array_sum(array_column($this->stats, 'Sandbox'));
+        $numInProgress = array_sum(array_column($this->stats, '[Test] In progress'));
+        $numInReview = array_sum(array_column($this->stats, '[Test] IN REVIEW'));
+        $numBlocked = array_sum(array_column($this->stats, '[Test] Blocked'));
+        $numToBeAutomated = array_sum(array_column($this->stats, '[Test] To be automated'));
+        $numAutomationInProgress = array_sum(array_column($this->stats, '[Test] Automation in progress'));
+        $numAutomated = array_sum(array_column($this->stats, '[Test] Automated'));
+        $numDeprecated = array_sum(array_column($this->stats, '[Test] Deprecated'));
+
         $statsContent .= '| **Total**'
-            . ' | **' . array_sum(array_map('array_sum', $this->stats)). '**'
-            . ' | **' . array_sum(array_column($this->stats, 'Sandbox')) . '**'
-            . ' | **' . array_sum(array_column($this->stats, '[Test] In progress')) . '**'
-            . ' | **' . array_sum(array_column($this->stats, '[Test] IN REVIEW')) . '**'
-            . ' | **' . array_sum(array_column($this->stats, '[Test] Blocked')) . '**'
-            . ' | **' . array_sum(array_column($this->stats, '[Test] To be automated')) . '**'
-            . ' | **' . array_sum(array_column($this->stats, '[Test] Automation in progress')) . '**'
-            . ' | **' . array_sum(array_column($this->stats, '[Test] Automated')) . '**'
-            . ' | **' . array_sum(array_column($this->stats, '[Test] Deprecated')) . '**'
+            . ' | **' . $numTotal . '**'
+            . ' | **' . $numDraft . '**'
+            . ' | **' . $numInProgress . '**'
+            . ' | **' . $numInReview . '**'
+            . ' | **' . $numBlocked . '**'
+            . ' | **' . $numToBeAutomated . '**'
+            . ' | **' . $numAutomationInProgress . '**'
+            . ' | **' . $numAutomated . '**'
+            . ' | **' . $numDeprecated . '**'
+            . ' | ' . PHP_EOL;
+
+        $statsContent .= '| **Total**'
+            . ' | '
+            . ' | **' . ($numDraft == 0 ? '0' : number_format(($numDraft * 100) / $numTotal, 2)) . '%**'
+            . ' | **' . ($numInProgress == 0 ? '0' : number_format(($numInProgress * 100) / $numTotal, 2)) . '%**'
+            . ' | **' . ($numInReview == 0 ? '0' : number_format(($numInReview * 100) / $numTotal, 2)) . '%**'
+            . ' | **' . ($numBlocked == 0 ? '0' : number_format(($numBlocked * 100) / $numTotal, 2)) . '%**'
+            . ' | **' . ($numToBeAutomated == 0 ? '0' : number_format(($numToBeAutomated * 100) / $numTotal, 2)) . '%**'
+            . ' | **' . ($numAutomationInProgress == 0 ? '0' : number_format(($numAutomationInProgress * 100) / $numTotal, 2)) . '%**'
+            . ' | **' . ($numAutomated == 0 ? '0' : number_format(($numAutomated * 100) / $numTotal, 2)) . '%**'
+            . ' | **' . ($numInProgress == 0 ? '0' : number_format(($numInProgress * 100) / $numTotal, 2)) . '%**'
             . ' | ' . PHP_EOL;
 
         file_put_contents(self::OUTPUT_DIR . DIRECTORY_SEPARATOR . $this->statsFile, $statsContent);
