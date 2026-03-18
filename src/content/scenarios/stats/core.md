@@ -197,3 +197,4 @@ disableToc: true
 | [Core > Orders Campaign > Create order BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+BO) | 8 | 8 | - | - | - | - | - | - | - | 
 | [Core > Upgrade](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FUpgrade) | 12 | 12 | - | - | - | - | - | - | - | 
 | **Total** | **994** | **121** | **60** | **9** | **0** | **83** | **7** | **675** | **32** | 
+| **Total** |  | **12.17%** | **6.04%** | **0.91%** | **0%** | **8.35%** | **0.70%** | **67.91%** | **6.04%** | 

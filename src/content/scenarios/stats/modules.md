@@ -95,4 +95,4 @@ disableToc: true
 | [Modules > statsvisits > Contenu](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fstatsvisits%2FContenu) | 1 | - | 1 | - | - | - | - | - | - | 
 | [Modules > welcome > Contenu](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fwelcome%2FContenu) | 2 | - | - | - | - | - | - | - | 2 | 
 | **Total** | **302** | **9** | **86** | **8** | **0** | **106** | **0** | **59** | **34** | 
-| **Total** |  | **2.98%** | **28.48%** | **2.65%** | **0%** | **35.10%** | **0%** | **19.54%** | **11.26%** | 
+| **Total** |  | **2.98%** | **28.48%** | **2.65%** | **0%** | **35.10%** | **0%** | **19.54%** | **28.48%** | 

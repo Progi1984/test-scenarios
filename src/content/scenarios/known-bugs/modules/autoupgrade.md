@@ -3,7 +3,15 @@ title: "autoupgrade"
 weight: 1
 ---
 
-# Known bugs (6 campaigns / 2 issues)
+# Known bugs (13 campaigns / 3 issues)
+* **[.github/workflows/ui-test/nightly-classic-ui.json](https://github.com/PrestaShop/autoupgrade/tree/dev/.github/workflows/ui-test/nightly-classic-ui.json)** :
+  * bug ps edition basic
+* **[.github/workflows/ui-test/nightly-cli.json](https://github.com/PrestaShop/autoupgrade/tree/dev/.github/workflows/ui-test/nightly-cli.json)** :
+* **[.github/workflows/ui-test/nightly-ui.json](https://github.com/PrestaShop/autoupgrade/tree/dev/.github/workflows/ui-test/nightly-ui.json)** :
+* **[.github/workflows/ui-test/pr-classic-ui.json](https://github.com/PrestaShop/autoupgrade/tree/dev/.github/workflows/ui-test/pr-classic-ui.json)** :
+* **[.github/workflows/ui-test/pr-cli.json](https://github.com/PrestaShop/autoupgrade/tree/dev/.github/workflows/ui-test/pr-cli.json)** :
+* **[.github/workflows/ui-test/pr-ui.json](https://github.com/PrestaShop/autoupgrade/tree/dev/.github/workflows/ui-test/pr-ui.json)** :
+* **[.github/workflows/ui-test/rollback-ui.json](https://github.com/PrestaShop/autoupgrade/tree/dev/.github/workflows/ui-test/rollback-ui.json)** :
 * **[tests/UI/campaigns/sanity/02_productsBO/02_CRUDStandardProduct.spec.ts](https://github.com/PrestaShop/autoupgrade/tree/dev/tests/UI/campaigns/sanity/02_productsBO/02_CRUDStandardProduct.spec.ts)** :
   * [PrestaShop#36097 : Edit Product Page  : The menu hide a part of the page in tablet mode](https://github.com/PrestaShop/PrestaShop/issues/36097)
 * **[tests/UI/campaigns/sanity/02_productsBO/03_CRUDProductWithCombinations.spec.ts](https://github.com/PrestaShop/autoupgrade/tree/dev/tests/UI/campaigns/sanity/02_productsBO/03_CRUDProductWithCombinations.spec.ts)** :
