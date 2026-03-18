@@ -3,6 +3,7 @@ name: "Scenarios : Move in project"
 on:
   issues:
     types: [ labeled ]
+  workflow_dispatch:
 
 jobs:
   move:

@@ -69,8 +69,6 @@ EOD;
  
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $time = time();
-
         $this->apiKey = $input->getOption('apikey');
         $this->requestsCount = 0;
         $this->github = new Github($input->getOption('ghtoken'));
@@ -78,21 +76,48 @@ EOD;
         $this->output = $output;
 
         // Fetch scenarios (To Be Automated / Automation In Progress / Automated)
+        $time = time();
+
         $this->jiraIssues = [];
         $this->fetchJIRAScenarios();
+        $this->output->writeLn([
+            'Fetch ' . count($this->jiraIssues) . ' JIRA Scenarios done in ' . (time() - $time) . 's with ' . $this->requestsCount . ' requests.',
+            '',
+        ]);
 
         // Fetch issues
+        $time = time();
+
         $this->ghIssues = [];
         $this->fetchGithubIssues();
+        $this->output->writeLn([
+            'Fetch ' . count($this->ghIssues) . ' Github issues done in ' . (time() - $time) . 's.',
+            '',
+        ]);
 
+        $time = time();
         $count = 0;
         try {
-            foreach($this->jiraIssues as $key => $jiraIssue) {
+            foreach ($this->jiraIssues as $key => $jiraIssue) {
+                if ($this->isVerbose) {
+                    $this->output->writeln(sprintf(
+                        '> %s : Process JIRA scenario',
+                        $jiraIssue['key']
+                    ));
+                }
                 $count++;
                 $ghIssue = $this->getGithubIssue($key);
                 if (!$ghIssue) {
                     $this->actionCreateGHIssue($jiraIssue);
                     continue;
+                } else {
+                    if ($this->isVerbose) {
+                        $this->output->writeln(sprintf(
+                            '%s : Link to Github : %s ',
+                            $jiraIssue['key'],
+                            $ghIssue['number']
+                        ));
+                    }
                 }
     
                 // Update body if different
@@ -106,6 +131,10 @@ EOD;
     
                 // Update JIRA from Github
                 $this->actionUpdateJIRAFromGH($ghIssue, $jiraIssue);
+
+                if ($this->isVerbose) {
+                    $this->output->writeln(['']);
+                }
             }
             
             $this->output->writeLn([
